@@ -51,7 +51,7 @@ podAnnotations: {}
 
 resources:
   limits:
-    cpu: "500m"
+    cpu: "1000m"
     memory: "1Gi"
 
 protocol: http
