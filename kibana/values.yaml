@@ -122,7 +122,7 @@ service:
   port: 5601
   nodePort: ""
   labels: {}
-  annotations: {service.beta.kubernetes.io/azure-load-balancer-internal: "false"}
+  annotations: {}
   # cloud.google.com/load-balancer-type: "Internal"
   # service.beta.kubernetes.io/aws-load-balancer-internal: 0.0.0.0/0
   # service.beta.kubernetes.io/azure-load-balancer-internal: "true"
